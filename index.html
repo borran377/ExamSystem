@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SportsSystem</title>
+    <style>
+        body{
+            background-color: bisque;
+        }
+        .UserUI{
+            position: absolute;
+            left: 1000px;
+            top: 200px;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">首頁</h1><br><br>
+    <img src="image/SportsTitle.jpg" style="width: 600px; height: 400px; position: absolute; left:225px;">
+    <div class="UserUI">
+        <form action="Server/index.php" method="post">
+            <h1>帳號：<input type="text" name="User" style="font-size: 20pt;"/></h1><br>
+            <h1>密碼：<input type="password" name="Password" style="font-size: 20pt;"/></h1><br>
+            <center>
+                <button type="submit"><div style="font-size: 20pt;">Login</div></button>
+                <a href="Register.html" style="position: absolute; left: 275px;"><div style="font-size: 20pt;">Register</div></a>
+            </center>
+        </form>
+    </div>
+</body>
+</html>
